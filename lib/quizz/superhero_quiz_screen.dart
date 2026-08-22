@@ -15,10 +15,10 @@ class _SuperheroQuizScreenState extends State<SuperheroQuizScreen> {
   int _incorrectCount = 0;
 
   final List<Color> _optionColors = const [
-    Color(0xFF6C63FF), // morado
-    Color(0xFFFF6584), // rosado/rojo
-    Color(0xFFFFC93C), // amarillo
-    Color(0xFF00BFA6), // teal
+    Color(0xFF6C63FF),
+    Color(0xFFFF6584),
+    Color(0xFFFFC93C),
+    Color(0xFF00BFA6),
   ];
 
   void _answerQuestion(String selected) {
